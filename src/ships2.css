@@ -1,0 +1,75 @@
+p {
+    margin-bottom: 0px;
+}
+.SHIPS {
+    margin-left: 40px;
+}
+.board-header
+.board-body {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.carriercell {
+  border: 1px solid black;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #204904;
+  border: 1px solid #faf7f7;
+  padding: 10px;
+}
+
+.battleshipcell {
+    border: 1px solid black;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color:purple ;
+    border: 1px solid #faf7f7;
+    padding: 10px;
+  }
+
+  .cruisercell {
+    border: 1px solid black;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border: 1px solid #fcf7f7;
+    padding: 10px;
+  }
+  
+  .submarinecell {
+    border: 1px solid black;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: #5e1f06;
+    border: 1px solid #fdfbfb;
+    padding: 10px;
+  }
+
+  .destroyercell {
+    border: 1px solid black;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: #35021e;
+    border: 1px solid #f8f5f5;
+    padding: 10px;
+  }
+  
+  
+
+.carrier {
+  padding: auto;
+  display: flex;
+
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
