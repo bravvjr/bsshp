@@ -299,13 +299,13 @@ const styles = {
   },
   title: {
     fontSize: "2em",
-    color: "#333",
+    color: "#white",
     margin: "20px",
   },
   message: {
     fontSize: "1.2em",
     margin: "15px 0",
-    color: "#666",
+    color: "white",
   },
   boardsWrapper: {
     display: "flex",
@@ -322,7 +322,7 @@ const styles = {
   boardLabel: {
     margin: "10px 0",
     fontSize: "1.2em",
-    color: "#333",
+    color: "#white",
   },
   row: {
     display: "flex",
