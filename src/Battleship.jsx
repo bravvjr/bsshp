@@ -170,7 +170,6 @@ const Battleship = () => {
   return (
     <div style={styles.container}>
       {gameOver && <Confetti width={windowWidth} height={windowHeight} />}
-      <h1 style={styles.title}>Battleship</h1>
       <p style={styles.message}>{message}</p>
       <div style={styles.boardsWrapper}>
         <Board
