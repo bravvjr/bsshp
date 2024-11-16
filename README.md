@@ -1,6 +1,15 @@
 # Battleship Game
 
+### DATE: 15/11/2024
+
 Welcome to the Battleship Game! This is a browser-based implementation of the classic two-player strategy game, *Battleship*. The game allows two players to take turns attacking each other's ships on a grid and aims to sink all the opponent's ships to win.
+
+
+### Collaborators
+1. Betty Jelagat
+2. Daniel Mburu
+3. Bravin Murambi
+
 
 ## Table of Contents
 
@@ -47,23 +56,30 @@ npm -v
 If not installed, download and install from the official [Node.js website](https://nodejs.org/en)
 
 ### Clone the repository
-Start by cloning this repository to your local machine:
 
+Start by cloning this repository to your local machine:
 ```
 git clone https://github.com/yourusername/battleship-game.git
 cd battleship-game
 ```
+
 ### Install dependencies
+
 Once inside the project directory, install the required dependencies:
+
 ```npm install
 ```
+
 ### Run the game
 To start the game, run the following command:
+
 ```npm start
 ```
+
 This will launch the application in your browser, and you should be able to start playing!
 
 ## Game Instructions
+
 ### 1. Place your ships:
 
 Each player gets 5 ships of varying sizes: Carrier (5 cells), Battleship (4 cells), Cruiser (3 cells), Submarine (3 cells), and Destroyer (2 cells).
@@ -87,12 +103,23 @@ Submarine: 3 cells
 Destroyer: 2 cells
 Turns: Players alternate attacking until all of one player’s ships are sunk.
 Victory Condition: The first player to sink all the opponent's ships wins.
+
 ## Future Enhancements
+
 Multiplayer: Implement online multiplayer mode to allow players to compete over the internet.
 AI Opponent: Add a bot opponent for single-player mode.
 Custom Ship Sizes: Allow players to customize their ships and grid size.
 Leaderboard: Integrate a leaderboard to track high scores and game statistics.
+
+### Support and Contact Details
+
+For any questions or support regarding the Battleship game, feel free to reach out to us via our GitHub profiles:
+
+1. Betty Jelagat:  https://github.com/bettyje
+2. Daniel Mburu:  https://github.com/waweru89
+3. Bravin Murambi: https://github.com/bravjr
+
+
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
