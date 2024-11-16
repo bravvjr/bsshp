@@ -33,6 +33,9 @@ This Battleship game is implemented using **React.js** for building the user int
 - **Game Over**: The game ends when one player has sunk all of the opponent's ships. A "GAME OVER" message displays the winner, and confetti is shown for a fun celebration.
 - **Responsive Design**: The game is responsive and works on both desktop and mobile devices.
 
+# Live Link
+https://battleshiptp.netlify.app/
+
 ## Technologies Used
 
 - **React.js**: Used for building the interactive user interface.
